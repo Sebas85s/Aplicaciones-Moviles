@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresarAdministrador">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="166dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tituloArrendatario"
+        android:layout_width="254dp"
+        android:layout_height="57dp"
+        android:background="#F9E426"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="5dp"
+        android:text="ARRENDATARIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tituloArrendatario" />
+
+    <EditText
+        android:id="@+id/ingresarUsuario"
+        android:layout_width="254dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="USUARIO"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <EditText
+        android:id="@+id/ingresarUsuario"
+        android:layout_width="252dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="CONTRASENA"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="84dp"
+        android:background="#D9D9D9"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="649dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="107dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/Direccion" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CONTACTENOS"
+
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="61dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/whatsapp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="170dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#F9E426"
+        android:text="INGRESAR"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="173dp"
+        android:layout_height="38dp"
+        android:text="Olvide contrasena"
+        android:backgroundTint="#D9D9D9"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

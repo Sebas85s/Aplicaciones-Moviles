@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilAdministrador">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="164dp"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:text="ADMINISTRADOR"
+        android:background="#F9E426"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="181dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/nombre"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="NOMBRE TRABAJADOR"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="CARGO EN LA EMPRESA"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="49dp"
+        android:text="cambiar contrasena"
+        android:backgroundTint="#80C852"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="187dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#DE7DEE"
+        android:text="buscar arrendatarios"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="189dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#DE7DEE"
+        android:text="solicitudes"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="587dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

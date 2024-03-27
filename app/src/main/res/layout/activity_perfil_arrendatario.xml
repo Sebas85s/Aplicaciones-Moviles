@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilArrendatario">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="191dp"
+        android:layout_height="177dp"
+        app:srcCompat="@drawable/Logo"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="217dp"
+        android:layout_height="47dp"
+        android:background="#DE7DEE"
+        android:padding="10dp"
+        android:text="ARRENDATARIO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="textView2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        app:srcCompat="@drawable/notificaciones"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <EditText
+        android:id="@+id/nombreArrendatario"
+        android:layout_width="219dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="NOMBRE DEL ARRENDATARIO"
+        android:textColor="#4E4D4D"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/direccionInmueble"
+        android:layout_width="219dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="DIRECCION DEL INMUEBLE"
+        android:textColor="#4E4D4D"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/telefonoArrendatario"
+        android:layout_width="217dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="TELEFONO ARRENDATARIO"
+        android:textColor="#4E4D4D"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <EditText
+        android:id="@+id/emailArrendatario"
+        android:layout_width="213dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="EMAIL ARRENDATARIO"
+        android:textColor="#4E4D4D"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/nombre"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/Direccion"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/telefono"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="84dp"
+        android:background="#D9D9D9"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="649dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="107dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/Direccion" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="CONTACTENOS"
+
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="61dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/whatsapp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mantenimientos"
+        android:layout_width="97dp"
+        android:layout_height="93dp"
+        android:background="@drawable/mantenimientos"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="731dp" />
+
+    <TextView
+        android:id="@+id/textMantenimientos"
+        android:layout_width="111dp"
+        android:layout_height="18dp"
+        android:text="Mantenimientos"
+        android:textAlignment="center"
+        android:textColor="#00304E"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <ImageButton
+        android:id="@+id/btonSolicitudes"
+        android:layout_width="97dp"
+        android:layout_height="92dp"
+        android:background="@drawable/solicitud"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/textSolicitudes"
+        android:layout_width="100dp"
+        android:layout_height="18dp"
+        android:text="Solicitudes"
+        android:textAlignment="center"
+        android:textColor="#7BB954"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/pagos"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <TextView
+        android:id="@+id/pagos"
+        android:layout_width="142dp"
+        android:layout_height="23dp"
+        android:text="Pagos en linea"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
